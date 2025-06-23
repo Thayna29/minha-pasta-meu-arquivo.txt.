@@ -1,0 +1,75 @@
+/*
+Theme Name: Tema Minimalista Moderno
+Theme URI: https://seudominio.com/
+Author: Seu Nome
+Author URI: https://seudominio.com/
+Description: Um tema WordPress com layout moderno e minimalista.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tema-minimalista
+*/
+
+/* === Reset Básico === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #333333;
+    padding: 2rem;
+  }
+  
+  /* === Container principal === */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* === Cabeçalho === */
+  header.site-header {
+    padding: 2rem 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2rem;
+  }
+  
+  header.site-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* === Posts === */
+  article.post {
+    margin-bottom: 2rem;
+  }
+  
+  article.post h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+  }
+  
+  article.post a {
+    text-decoration: none;
+    color: #0073aa;
+  }
+  
+  article.post a:hover {
+    text-decoration: underline;
+  }
+  
+  /* === Rodapé === */
+  footer.site-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #777;
+  }
